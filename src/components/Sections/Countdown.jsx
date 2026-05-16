@@ -89,7 +89,7 @@ const Countdown = ({ onUnlock }) => {
           transition={{ duration: 3, repeat: Infinity }}
           style={{ transform: "translateZ(40px)" }}
         >
-          A Special suprise Strats Here ❤️
+          A Special suprise Starts Here ❤️
         </motion.h2>
 
         {!isUnlocked ? (
