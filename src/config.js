@@ -1,6 +1,6 @@
 export const CONFIG = {
   girlfriendName: "Brijisha",
-  birthdayDate: "2026-05-15T00:00:00", // Format: YYYY-MM-DDTHH:mm:ss
+  birthdayDate: "2026-05-17T00:00:00", // Format: YYYY-MM-DDTHH:mm:ss
   ownerName: "Rishy",
   
   // Music settings
