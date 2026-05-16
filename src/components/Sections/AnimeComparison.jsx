@@ -56,11 +56,11 @@ const AnimeComparison = () => {
             <img 
               src={CONFIG.thenAndNowImage} 
               alt="Then and Now" 
-              className="max-w-[90vw] max-h-[80vh] w-auto h-auto object-cover transition-transform duration-1000 group-hover:scale-105"
+              className="max-w-[90vw] max-h-[80vh] w-auto h-auto object-contain transition-transform duration-1000 group-hover:scale-105"
             />
             
             {/* Subtle cinematic overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#030005] via-[#030005]/20 to-transparent opacity-90" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#030005] via-transparent to-transparent opacity-30" />
             
             {/* Caption over image */}
             <motion.div 
