@@ -24,8 +24,7 @@ const Countdown = ({ onUnlock }) => {
         setIsUnlocked(true);
       } else {
         setTimeLeft({
-          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          hours: Math.floor(difference / (1000 * 60 * 60)),
           minutes: Math.floor((difference / 1000 / 60) % 60),
           seconds: Math.floor((difference / 1000) % 60),
         });
@@ -95,7 +94,6 @@ const Countdown = ({ onUnlock }) => {
         {!isUnlocked ? (
           <div className="flex flex-wrap justify-center gap-6 md:gap-10 mb-12 preserve-3d">
             {[
-              { label: 'Days', value: timeLeft.days },
               { label: 'Hours', value: timeLeft.hours },
               { label: 'Mins', value: timeLeft.minutes },
               { label: 'Secs', value: timeLeft.seconds },
