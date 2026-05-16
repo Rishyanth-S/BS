@@ -89,7 +89,7 @@ const Countdown = ({ onUnlock }) => {
           transition={{ duration: 3, repeat: Infinity }}
           style={{ transform: "translateZ(40px)" }}
         >
-          A special cinematic surprise awaits... ❤️
+          A Special suprise Strats Here ❤️
         </motion.h2>
 
         {!isUnlocked ? (
@@ -145,7 +145,7 @@ const Countdown = ({ onUnlock }) => {
               whileTap={{ scale: 0.95 }}
               className="px-10 py-5 glass-button text-white font-bold text-xl flex items-center gap-4 mx-auto group"
             >
-              Enter the Surprise 
+              UNLOCK YOUR GIFT 
               <Heart className="w-7 h-7 group-hover:fill-romantic-pink group-hover:text-romantic-pink transition-all animate-pulse" />
             </motion.button>
           </motion.div>
